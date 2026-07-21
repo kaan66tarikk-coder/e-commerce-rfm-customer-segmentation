@@ -1,16 +1,17 @@
-# 🛒 E-Commerce Customer Segmentation using RFM Analysis
+# E-Commerce Customer Segmentation using RFM Analysis
 
 An end-to-end Data Analytics project designed to segment e-commerce customers based on their transaction behaviors using **RFM (Recency, Frequency, Monetary)** modeling. This project transforms raw transactional data into actionable marketing insights and strategic business decision-making tools.
 
 ---
 
-## 📌 Project Overview & Business Value
+## Project Overview & Business Value
 
+![Customer Segments Distribution](rfm_segments.png)
 In the e-commerce industry, understanding customer behavior is essential for targeted marketing, reducing churn, and maximizing Customer Lifetime Value (CLV). Instead of treating all customers equally, this pipeline segments users into 10 actionable behavioral categories (e.g., *Champions*, *At Risk*, *Cant Lose Them*, *Hibernating*).
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 * **Source:** UCI Machine Learning Repository — Online Retail Dataset
 * **Content:** Transactional data containing online retail transactions.
@@ -23,7 +24,7 @@ In the e-commerce industry, understanding customer behavior is essential for tar
 
 ---
 
-## 🛠️ Data Pipeline & Methodology
+## Data Pipeline & Methodology
 
 1. **Data Cleaning & Preprocessing:**
    * Filtered missing `CustomerID` records.
@@ -45,7 +46,7 @@ In the e-commerce industry, understanding customer behavior is essential for tar
 
 ---
 
-## 📈 Technologies Used
+## Technologies Used
 
 * **Language:** Python 3.14+
 * **Data Manipulation:** Pandas
@@ -53,7 +54,7 @@ In the e-commerce industry, understanding customer behavior is essential for tar
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
    ```bash
